@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# 配置文件路径
-CONFIG_FILE="update_cert.yaml"
+# 获取当前脚本的目录
+SCRIPT_DIR=$(dirname "$(realpath "$0")")
+
+# 设置配置文件的完整路径
+CONFIG_FILE="$SCRIPT_DIR/update_cert.yaml"
 
 # 检查文件是否存在
 if [ ! -f "$CONFIG_FILE" ]; then
