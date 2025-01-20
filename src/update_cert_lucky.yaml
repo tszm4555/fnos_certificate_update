@@ -1,0 +1,12 @@
+# 证书名称 / 域名 / 同时也是飞牛os上传的证书名
+cert_name: "lfgyx.cn"  
+
+# 新证书文件所在路径
+cert_path: "/vol2/1000/Tools/Cert"
+
+# 旧证书备份目录路径
+backup_dir: "/vol2/1000/Tools/Cert/Backup"
+
+# 飞牛OS证书位置  上传证书之后使用此命令找：  cat /usr/trim/etc/network_cert_all.conf
+old_crt: "/usr/trim/var/trim_connect/ssls/lfgyx.cn/1737344633/lfgyx.cn.crt"
+old_key: "/usr/trim/var/trim_connect/ssls/lfgyx.cn/1737344633/lfgyx.cn.key"

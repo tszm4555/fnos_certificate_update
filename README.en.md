@@ -22,6 +22,10 @@ This is a Bash script designed specifically for the Feiniu OS system, used to au
 - Alibaba Cloud API access with DNS management permissions
 - Root privileges to perform service restarts and certificate file operations
 
+
+## Add a script to get a lucky certificate and automatically replace the FNOS certificate. Tutorial:
+https://club.fnnas.com/forum.php?mod=viewthread&tid=12158&page=1&extra=#pid59164
+
 ## Configuration File Description
 
 The script requires a YAML configuration file (`update_cert.yaml`) with the following format:

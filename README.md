@@ -22,6 +22,9 @@
 - 配备阿里云 API 访问权限并具备 DNS 管理权限
 - root 权限，以执行服务重启和证书文件操作
 
+## 新增lucky获取证书，并自动替换fnos证书的脚本。教程：
+https://club.fnnas.com/forum.php?mod=viewthread&tid=12158&page=1&extra=#pid59164
+
 ## 配置文件说明
 
 脚本需要一个 YAML 配置文件（`update_cert.yaml`），文件内容格式如下：
@@ -76,3 +79,5 @@ domains:
 ## 许可证
 
 本项目采用 MIT 许可证 - 详情请参见 [LICENSE](LICENSE) 文件。
+
+
